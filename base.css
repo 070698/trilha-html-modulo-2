@@ -20,12 +20,20 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: DarkTurquoise;
     padding: 10px 20px 0px;
+}
+.menu a{
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    color:whitesmoke;
+    
 }
 .header {
     background-color: rgb(5, 108, 108);
     min-height: 150px;
+    max-height: 150px;
+    
 }
 .content {
     background-color: white;
@@ -33,6 +41,20 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    background-color: DarkTurquoise;
+    min-height:150px;
+    max-height: 150px;
 }
+
+.footer a{
+    font-size: 35px;
+    font-family: Arial, sans-serif;
+    color:whitesmoke;
+    margin-left: 15%;
+}
+
+.content th{
+ background-color:DarkTurquoise;
+color: whitesmoke;
+}
+
